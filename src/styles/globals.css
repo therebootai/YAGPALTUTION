@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "swiper/css/scrollbar";
+
+@theme {
+  --color-site-primary: #156e63;
+  --color-site-secondary: #fba31c;
+  --color-site-text: #666666;
+  --shadow-site-primary: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+  --breakpoint-xlg: 90rem;
+}
+
+@layer base {
+  button {
+    @apply cursor-pointer;
+  }
+}
