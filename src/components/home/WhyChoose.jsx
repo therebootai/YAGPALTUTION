@@ -19,7 +19,7 @@ export default function WhyChoose() {
   ];
   return (
     <div className="xl:p-16 lg:p-8 p-4 flex flex-col md:flex-row gap-4 xl:gap-6">
-      <div className="lg:w-[60%] md:w-[50%] w-full">
+      <div className="md:w-[50%] w-full">
         <div className="flex flex-col gap-4 xlg:gap-6 xl:gap-8">
           <div className="flex flex-col gap-2 xlg:gap-3">
             <DoubleColourHeading
@@ -56,7 +56,7 @@ export default function WhyChoose() {
               success.
             </p>
           </div>
-          <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-12 md:gap-8 gap-4">
+          <div className="grid xl:grid-cols-3 grid-cols-2 xl:gap-12 md:gap-8 gap-4">
             {subjects.map((item, index) => (
               <div key={index} className="flex flex-row gap-2 items-center">
                 <div className="">
@@ -70,7 +70,7 @@ export default function WhyChoose() {
           </div>
         </div>
       </div>
-      <div className="lg:w-[40%] md:w-[50%] w-full grid place-items-stretch grid-cols-2  xl:gap-6 md:gap-4 gap-2">
+      <div className="md:w-[50%] w-full grid place-items-stretch grid-cols-2  xl:gap-6 md:gap-4 gap-2">
         <div className="flex bg-[url('/custom-bg/mission-vision-bg.jpg')] bg-no-repeat bg-cover bg-center rounded-tl-[80px] overflow-hidden">
           <div className="flex flex-col xl:py-10 md:py-6 py-4 xl:px-7 md:px-4 px-2  gap-4 items-center justify-center bg-site-primary/90 flex-1">
             <h1 className="xl:text-2xl md:text-xl text-lg font-bold text-center text-site-secondary">

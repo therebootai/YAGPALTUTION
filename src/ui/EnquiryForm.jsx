@@ -13,8 +13,8 @@ export default function EnquiryForm({ currentClass = "" }) {
 
     const isDesktop = window.matchMedia("(min-width: 1024px)").matches;
     const whatsappUrl = isDesktop
-      ? `https://web.whatsapp.com/send?phone=+919733002414&text=${encodedMessage}`
-      : `https://api.whatsapp.com/send?phone=+919733002414&text=${encodedMessage}`;
+      ? `https://web.whatsapp.com/send?phone=+919832014758&text=${encodedMessage}`
+      : `https://api.whatsapp.com/send?phone=+919832014758&text=${encodedMessage}`;
     window.open(whatsappUrl, "_blank");
     return { ...prevState, class: selectedClass };
   };
@@ -28,7 +28,7 @@ export default function EnquiryForm({ currentClass = "" }) {
   }, [currentClass]);
 
   return (
-    <div className="flex flex-col items-center gap-4 xlg:gap-5 flex-1">
+    <div className="flex flex-col md:items-center gap-4 xlg:gap-5 flex-1">
       <h1 className="text-white xl:text-3xl md:text-2xl text-xl font-bold text-center">
         Admission Going On
       </h1>
@@ -41,7 +41,7 @@ export default function EnquiryForm({ currentClass = "" }) {
           name="name"
           placeholder="Student Name"
           required
-          className="rounded-[20px] rounded-bl-none placeholder:text-white text-base bg-white/40 py-2.5 xl:px-5 md:px-4 px-3 focus:outline-none text-white min-w-sm"
+          className="rounded-[20px] rounded-bl-none placeholder:text-white text-base bg-white/40 py-2.5 xl:px-5 md:px-4 px-3 focus:outline-none text-white md:min-w-sm"
         />
         <input
           type="tel"
@@ -50,13 +50,13 @@ export default function EnquiryForm({ currentClass = "" }) {
           name="number"
           required
           placeholder="Mobile Number"
-          className="rounded-[20px] rounded-bl-none placeholder:text-white text-base bg-white/40 py-2.5 xl:px-5 md:px-4 px-3 focus:outline-none text-white min-w-sm"
+          className="rounded-[20px] rounded-bl-none placeholder:text-white text-base bg-white/40 py-2.5 xl:px-5 md:px-4 px-3 focus:outline-none text-white md:min-w-sm"
         />
         <select
           name="class"
           value={selectedClass}
           onChange={(e) => setSelectedClass(e.target.value)}
-          className="rounded-[20px] rounded-bl-none placeholder:text-white text-base bg-white/40 py-2.5 xl:px-5 md:px-4 px-3 focus:outline-none text-white min-w-sm"
+          className="rounded-[20px] rounded-bl-none placeholder:text-white text-base bg-white/40 py-2.5 xl:px-5 md:px-4 px-3 focus:outline-none text-white md:min-w-sm"
         >
           <option value="" className="text-gray-600">
             Select Class
@@ -102,7 +102,7 @@ export default function EnquiryForm({ currentClass = "" }) {
           name="message"
           rows={5}
           placeholder="Message"
-          className="rounded-[20px] rounded-bl-none placeholder:text-white text-base bg-white/40 py-2.5 xl:px-5 md:px-4 px-3 focus:outline-none text-white min-w-sm"
+          className="rounded-[20px] rounded-bl-none placeholder:text-white text-base bg-white/40 py-2.5 xl:px-5 md:px-4 px-3 focus:outline-none text-white md:min-w-sm resize-none"
         ></textarea>
         <button
           type="submit"

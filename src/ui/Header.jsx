@@ -60,7 +60,7 @@ export default function Header() {
         className={`flex justify-between items-center md:px-6 px-4 fixed lg:px-8 h-[4rem] md:h-[5rem] w-full z-[60]  shadow-md ${
           scrolled
             ? "top-0 bg-white"
-            : "md:top-[3rem] top-0 bg-linear-90/srgb from-site-secondary/10  from-0% to-site-primary/10 to-100%"
+            : "md:top-[4rem] top-0 bg-linear-90/srgb from-site-secondary/10  from-0% to-site-primary/10 to-100%"
         }`}
       >
         {/* Logo */}
@@ -157,8 +157,8 @@ export default function Header() {
         >
           <svg width="0" height="0">
             <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stopColor="#FFCD91" />
-              <stop offset="100%" stopColor="#FFCD91" />
+              <stop offset="0%" stopColor="#156e63" />
+              <stop offset="100%" stopColor="#156e63" />
             </linearGradient>
           </svg>
           <span
@@ -251,7 +251,7 @@ export default function Header() {
               ))}
               <button
                 onClick={toggleAppointmentModal}
-                className=" text-lg font-semibold text-site-primary bg-custom-yellow rounded flex justify-center items-center px-6 h-[2.5rem]"
+                className=" text-lg font-semibold text-white bg-site-secondary rounded flex justify-center items-center px-6 h-[2.5rem]"
               >
                 Enquire Now
               </button>

@@ -8,8 +8,12 @@ const contactDetails = [
     title: `Call With Us`,
     links: [
       {
-        text: `+91 82507 42988`,
-        href: `tel:+91 8250742988`,
+        text: `+91 98320 14758`,
+        href: `tel:+919832014758`,
+      },
+      {
+        text: `+91 98320 43957`,
+        href: `tel:+919832043957`,
       },
     ],
   },
@@ -18,8 +22,12 @@ const contactDetails = [
     title: `Email With Us`,
     links: [
       {
-        text: `claudius.rasaily@gmail.com `,
-        href: `mailTo:claudius.rasaily@gmail.com `,
+        text: `yagpalgoyal@gmail.com`,
+        href: `mailTo:yagpalgoyal@gmail.com`,
+      },
+      {
+        text: `minnigoyal79@gmail.com`,
+        href: `mailTo:minnigoyal79@gmail.com`,
       },
     ],
   },
@@ -28,7 +36,7 @@ const contactDetails = [
     title: `Visit Our Location`,
     links: [
       {
-        text: `Patel Road, By lane, Pradhan Nagar, Siliguri, WB - 734001 `,
+        text: `Goyal Tutorial Home, Gayatri Bhawan, Nivedita Road Bylane, Gurung Basti, P.O.Pradhan Nagar, Siliguri, WB, India 734001`,
         href: `https://maps.app.goo.gl/E7db3LMNB889Uiak9`,
       },
     ],

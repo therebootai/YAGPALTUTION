@@ -13,11 +13,11 @@ export default function CardWithLink({ icon, title, links }) {
         <h1 className="text-site-primary xl:text-2xl md:text-xl text-lg font-bold text-center">
           {title}
         </h1>
-        <div className="flex flex-wrap gap-1">
+        <div className="flex flex-wrap gap-1 items-center self-center justify-center">
           {links.map(({ href, text }, index) => (
             <Link
               href={href}
-              className="text-site-text xl:text-xl md:text-lg text-base text-center"
+              className="text-site-text xl:text-xl md:text-lg text-base text-center not-last:after:content-[','] inline self-center"
               target="_blank"
               referrerPolicy="no-referrer"
               key={index}

@@ -22,7 +22,7 @@ const allClasses = {
     },
     {
       class_name: `Class VI`,
-      content: `For Class Six, we offer a well-structured program covering English, Math, Science, and Social Studies. Our experienced teachers use innovative methods to explain complex concepts. Regular tests, assignments, <br /> and feedback help students stay on track. We also focus on developing analytical skills and a disciplined approach to learning, ensuring academic excellence.`,
+      content: `For Class Six, we offer a well-structured program covering English, Math, Science, and Social Studies. Our experienced teachers use innovative methods to explain complex concepts. Regular tests, assignments, and feedback help students stay on track. We also focus on developing analytical skills and a disciplined approach to learning, ensuring academic excellence.`,
     },
   ],
   senior: [

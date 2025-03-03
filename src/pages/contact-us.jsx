@@ -32,7 +32,7 @@ export default function ContactUs() {
         </div>
       </div>
       <div className="bg-[url('/custom-bg/form-bg.png')] bg-no-repeat bg-cover">
-        <div className="flex flex-col xl:flex-row gap-5 xl:gap-8  justify-between bg-site-primary/80  xl:p-16 lg:p-8 p-4 ">
+        <div className="flex flex-col xl:flex-row gap-5 xl:gap-8  justify-between bg-site-primary/80  xl:p-16 lg:p-8 p-4 items-center xl:items-stretch">
           <Image
             src="/extra/contact us.jpg"
             alt="contact"

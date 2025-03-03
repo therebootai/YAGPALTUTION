@@ -87,47 +87,48 @@ export default function Footer() {
                 Contact Information
               </h1>
               <Link
-                href="https://api.whatsapp.com/send?phone=919733002414"
+                href="https://api.whatsapp.com/send?phone=919832014758"
                 className="flex gap-2 text-site-primary"
               >
                 <FaWhatsapp size={20} />{" "}
-                <span className="text-site-text">+91 97330 02414</span>
+                <span className="text-site-text">+91 98320 14758</span>
               </Link>
-              <div
-                href="tel:+918250742988"
-                className="flex gap-2 text-site-primary"
-              >
+              <div className="flex gap-2 text-site-primary flex-wrap">
                 <FaMobile size={20} />{" "}
-                <Link href="tel:+919733002414" className="text-site-text">
-                  97330 02414
+                <Link href="tel:+919832014758" className="text-site-text">
+                  98320 14758
                 </Link>
                 /
-                <Link href="tel:+918927177446" className="text-site-text">
-                  89271 77446
-                </Link>
-                /
-                <Link href="tel:+919734777403" className="text-site-text">
-                  97347 77403
+                <Link href="tel:+919832043957" className="text-site-text">
+                  98320 43957
                 </Link>
               </div>
-              <Link
-                href="mailto:claudius.rasaily@gmail.com "
-                className="flex gap-2 text-site-primary"
-              >
+              <div className="flex gap-2 text-site-primary flex-wrap items-center">
                 <MdEmail size={20} />{" "}
-                <span className="text-site-text">
-                  claudius.rasaily@gmail.com{" "}
-                </span>
-              </Link>
+                <Link
+                  className="text-site-text"
+                  href="mailto:yagpalgoyal@gmail.com"
+                >
+                  yagpalgoyal@gmail.com
+                </Link>{" "}
+                /
+                <Link
+                  className="text-site-text"
+                  href="mailto:minnigoyal79@gmail.com"
+                >
+                  minnigoyal79@gmail.com
+                </Link>
+              </div>
               <Link
                 href="https://maps.app.goo.gl/nSxRUfrKtXoZdHso8"
                 target="_blank"
                 referrerPolicy="no-referrer"
                 className="flex gap-2 w-full xl:w-[80%]"
               >
-                <IoLocationSharp size={20} className="text-site-primary" />{" "}
+                <IoLocationSharp size={20} className="text-site-primary shrink-0" />{" "}
                 <span className="text-site-text">
-                  Patel Road, By lane, Pradhan Nagar, Siliguri, WB - 734001
+                  Goyal Tutorial Home, Gayatri Bhawan, Nivedita Road Bylane,
+                  Gurung Basti, P.O.Pradhan Nagar, Siliguri, WB, India 734001
                 </span>
               </Link>
             </div>
@@ -180,7 +181,7 @@ export default function Footer() {
                 Call With Us
               </h1>
               <p className="text-site-text xl:text-base text-sm">
-                <Link href="tel:+919733002414"> +91 97330 02414 </Link>
+                <Link href="tel:+919832014758"> +91 98320 14758</Link>
               </p>
             </div>
           </div>
@@ -194,11 +195,11 @@ export default function Footer() {
               </h1>
               <p className="xl:text-base text-sm text-white">
                 <Link
-                  href="https://api.whatsapp.com/send?phone=919733002414"
+                  href="https://api.whatsapp.com/send?phone=919832014758"
                   target="_blank"
                   referrerPolicy="no-referrer"
                 >
-                  +91 97330 02414
+                  +91 98320 14758
                 </Link>
               </p>
             </div>

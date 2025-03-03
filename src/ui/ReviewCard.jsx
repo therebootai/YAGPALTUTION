@@ -4,7 +4,7 @@ import { IoStarSharp } from "react-icons/io5";
 export default function ReviewCard({ review }) {
   const { name, description } = review;
   return (
-    <div className="bg-white border border-[#EDEDED] rounded-[40px] rounded-bl-none px-4 md:px-6 xl:px-10 py-4 xl:py-6 relative flex items-center justify-center h-60">
+    <div className="bg-white border border-[#EDEDED] rounded-[40px] rounded-bl-none px-4 md:px-6 xl:px-10 py-4 xl:py-6 relative flex items-center justify-center">
       <div className="absolute inset-0 top-0 left-0 w-full h-full overflow-hidden flex items-start justify-end pe-6 gap-4">
         <Image
           src="/icons/green-label.svg"
