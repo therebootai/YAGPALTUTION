@@ -48,16 +48,16 @@ export default function AboutGraphics() {
               />
             </div>
             <div
-              className=" w-full flex-1 rounded-b-[2rem] rounded-tl-[2rem] bg-site-secondary text-white flex flex-col justify-center items-center text-base xlg:text-lg font-semibold gap-4"
+              className="w-full flex-1 rounded-b-[2rem] rounded-tl-[2rem] bg-site-secondary text-white flex flex-col justify-center items-center text-base xlg:text-lg font-semibold gap-4"
               ref={progressRef}
             >
-              <div className="flex items-center gap-2.5">
-                <h1 className=" xlg:text-5xl text-3xl font-bold">
+              <div className="flex items-center gap-2.5 justify-center self-center">
+                <h1 className=" xlg:text-5xl text-3xl font-bold w-fit">
                   {progress}+
                 </h1>
-                <p>Years of Excellence</p>
+                <p className="text-center w-min">Years of Excellence</p>
               </div>
-              <p>We have no other branches</p>
+              <p className="text-center">We have no other branches</p>
             </div>
           </div>
           <div className="w-[50%] flex flex-col gap-4 xl:gap-6 h-full">
