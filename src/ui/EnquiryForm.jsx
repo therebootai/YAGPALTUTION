@@ -7,7 +7,7 @@ export default function EnquiryForm({ currentClass = "" }) {
     const number = formData.get("number");
     const message = formData.get("message");
     const requiredClass = formData.get("class");
-    let whatsappMessage = `Name: ${name}\nMobile: ${number}\nClasses Needed:  ${requiredClass}\nMessage: ${message}`;
+    let whatsappMessage = `Name: ${name}\nMobile: ${number}\nClasses Needed:  ${requiredClass}\nRequirements: ${message}`;
 
     const encodedMessage = encodeURIComponent(whatsappMessage);
 
@@ -30,11 +30,8 @@ export default function EnquiryForm({ currentClass = "" }) {
   return (
     <div className="flex flex-col md:items-center gap-4 xlg:gap-5 flex-1">
       <h1 className="text-white xl:text-3xl md:text-2xl text-xl font-bold text-center">
-        Admission Going On
+        Admissions are Going On
       </h1>
-      <p className="text-white xl:text-lg text-base text-center">
-        We are variations of passages the have suffered.
-      </p>
       <form className="flex flex-col gap-4 xl:gap-6" action={formAction}>
         <input
           type="text"
@@ -101,7 +98,7 @@ export default function EnquiryForm({ currentClass = "" }) {
         <textarea
           name="message"
           rows={5}
-          placeholder="Message"
+          placeholder="Requirements"
           className="rounded-[20px] rounded-bl-none placeholder:text-white text-base bg-white/40 py-2.5 xl:px-5 md:px-4 px-3 focus:outline-none text-white md:min-w-sm resize-none"
         ></textarea>
         <button

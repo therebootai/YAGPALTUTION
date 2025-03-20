@@ -33,6 +33,7 @@ export default function Header() {
 
     { text: "Our Classes", href: "/our-classes" },
     { text: "Why Yagpal", href: "/why-yagpal" },
+    { text: "Gallery", href: "/gallery" },
     {
       text: "Contact Us",
       href: "/contact-us",
@@ -258,7 +259,7 @@ export default function Header() {
             </ul>
           </div>
         )}
-        <Popup isOpen={isAppointmentModalOpen} onClose={toggleAppointmentModal}>  
+        <Popup isOpen={isAppointmentModalOpen} onClose={toggleAppointmentModal}>
           <EnquiryForm />
         </Popup>
       </div>

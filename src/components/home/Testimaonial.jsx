@@ -2,7 +2,7 @@ import allTestimonials from "@/lib/testimonialLibrary";
 import DoubleColourHeading from "@/ui/DoubleColourHeading";
 import ReviewCard from "@/ui/ReviewCard";
 import { useEffect, useState } from "react";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function Testimaonial() {
@@ -48,17 +48,21 @@ export default function Testimaonial() {
       />
       <div>
         <Swiper
-          slidesPerView={slidesToShow}
           loop={true}
           spaceBetween={30}
-          modules={[Autoplay]}
+          modules={[Autoplay, Pagination]}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+          }}
+          pagination={{
+            clickable: true,
+            bulletActiveClass: "!bg-[#FBA31C] !opacity-100",
           }}
         >
           {allTestimonials.map((review, index) => (
-            <SwiperSlide key={index}>
+            <SwiperSlide key={index} className="h-fit">
               <ReviewCard review={review} />
             </SwiperSlide>
           ))}

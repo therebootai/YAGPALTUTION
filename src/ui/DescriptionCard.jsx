@@ -14,9 +14,10 @@ export default function DescriptionCard({
             </h1>
           </div>
         </div>
-        <p className="text-site-text xl:text-lg text-base text-center">
-          {description}
-        </p>
+        <p
+          className="text-site-text xl:text-lg text-base text-center"
+          dangerouslySetInnerHTML={{ __html: description }}
+        ></p>
         {showBtn && (
           <button
             type="button"

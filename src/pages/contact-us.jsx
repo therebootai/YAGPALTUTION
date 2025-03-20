@@ -18,7 +18,7 @@ export default function ContactUs() {
           </h1>
           <p className="text-site-text text-base">
             Reach out to Yagpal for any queries or enrollment details! Visit us
-            at Pradhan Nagar, Siliguri, or connect with us via email. Our team
+            at Gurung Basti,  Pradhan Nagar, Siliguri, or connect with us via email. Our team
             is here to assist you with course information, schedules, and more.
             Let us help you take the first step toward academic success! Stay
             updated through our WhatsApp updates for classwork, boardwork, and

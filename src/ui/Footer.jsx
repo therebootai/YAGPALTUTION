@@ -59,6 +59,10 @@ export default function Footer() {
       href: `/why-yagpal`,
     },
     {
+      label: `Gallery`,
+      href: `/gallery`,
+    },
+    {
       label: `Contact Us`,
       href: `/contact-us`,
     },
@@ -79,7 +83,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-site-text text-base">
-              Unlock your potential with Yagpal - 37+ years of excellence in
+              Unlock your potential with Yagpal - 25+ years of excellence in
               education. Join us for a brighter academic future today!
             </p>
             <div className="flex flex-col gap-2 text-base lg:text-sm xl:text-base">
@@ -125,7 +129,10 @@ export default function Footer() {
                 referrerPolicy="no-referrer"
                 className="flex gap-2 w-full xl:w-[80%]"
               >
-                <IoLocationSharp size={20} className="text-site-primary shrink-0" />{" "}
+                <IoLocationSharp
+                  size={20}
+                  className="text-site-primary shrink-0"
+                />{" "}
                 <span className="text-site-text">
                   Goyal Tutorial Home, Gayatri Bhawan, Nivedita Road Bylane,
                   Gurung Basti, P.O.Pradhan Nagar, Siliguri, WB, India 734001

@@ -2,15 +2,8 @@ import Footer from "@/ui/Footer";
 import Header from "@/ui/Header";
 import TopHeader from "@/ui/TopHeader";
 import Head from "next/head";
-import { useEffect } from "react";
 
-const MainPageTemplate = ({ children, metaData }) => {
-  useEffect(() => {
-    if (window !== "undefined") {
-      window.scrollTo(0, 0);
-    }
-  }, []);
-
+const MainPageTemplate = ({ children, metaData = {} }) => {
   let { title = "Yagpal Tution" } = metaData;
 
   return (

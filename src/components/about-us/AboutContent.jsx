@@ -19,10 +19,16 @@ export default function AboutContent() {
       heading: "Marks and results provided on time.",
     },
     {
-      heading: "Hostel facility available for boys and girls.",
+      heading: "In-House hostel facility available for boys and girls.",
     },
     {
       heading: "Structured notes provided for all subjects.",
+    },
+    {
+      heading: "Regular update about attendance.",
+    },
+    {
+      heading: "Parent included in the Whatsapp Group",
     },
   ];
   return (
@@ -30,7 +36,7 @@ export default function AboutContent() {
       <div className="flex flex-col gap-2 xlg:gap-3">
         <DoubleColourHeading
           primarytext={"About"}
-          secondarytext={"Yaktpal"}
+          secondarytext={"Yagpal"}
           className={`xl:text-xl text-lg`}
         />
         <h1 className=" xlg:text-3xl lg:text-2xl md:text-xl text-2xl font-bold text-site-primary">
@@ -40,7 +46,7 @@ export default function AboutContent() {
         </h1>
         <p className="xl:text-base text-sm text-site-text ">
           <span className="text-[#222]">Yagpal</span> is one of the oldest and
-          most trusted tuition centers in Pradhan Nagar, Siliguri, with over 37+
+          most trusted tuition centers in Pradhan Nagar, Siliguri, with over 25+
           years of excellence in education. We provide comprehensive tuition for
           students from Class I to XII across all major boards, including CBSE,
           ICSE, ISC, and WBCHSE. Our expert faculty ensures structured learning

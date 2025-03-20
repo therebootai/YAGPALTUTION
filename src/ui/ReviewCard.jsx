@@ -24,7 +24,7 @@ export default function ReviewCard({ review }) {
           className="text-site-text text-sm lg:text-base text-center capitalize"
           dangerouslySetInnerHTML={{ __html: description }}
         />
-        <div className="h-0.5 w-1/2 bg-site-secondary rounded-4xl" />
+        <div className="h-0.5 w-20 bg-site-secondary rounded-4xl" />
         <h1 className="text-site-primary text-base lg:text-xl text-center">
           {name}
         </h1>

@@ -33,27 +33,33 @@ export default function WhyChoose() {
               Confidence, Creativity, and Success!
             </h1>
             <p className="xl:text-base text-sm text-site-text ">
-              At <span className="text-[#222]">Yagpal</span>, we prioritize
-              quality education, discipline, and student success. With over 37+
-              years of teaching excellence, we provide tuition for Class I to
-              XII across CBSE, ICSE, ISC, and WBCHSE boards. Our structured
-              curriculum, expert faculty, and personalized attention ensure that
-              students grasp concepts effectively. We offer specialized coaching
-              for NEET and JEE &#40;Main &amp; Advanced&#41;, along with crash
-              courses and online classes for flexible learning. <br />
-              What sets us apart is our disciplined approach - regular classwork
-              and boardwork are shared separately on WhatsApp for easy
-              reference. We conduct periodic tests to track progress and provide
-              timely feedback on performance. Our dedicated hostel facility for
-              boys and girls creates a safe and focused learning environment.
+              With over 25 years of excellence,{" "}
+              <span className="text-[#222]">Yagpal</span> has established itself
+              as a trusted tuition center in Pradhan Nagar, Siliguri. We are
+              committed to delivering high-quality education for students from
+              Class I to Class XII across all major boards, including CBSE,
+              ICSE, ISC, and WBCHSE. Our structured learning approach ensures
+              that every student receives adequate teaching hours, comprehensive
+              subject notes, and a disciplined environment to enhance their
+              academic performance. Regular assessments and periodic tests are
+              conducted to track progress, with results shared on time to help
+              students improve continuously. <br />
+              We believe in keeping both students and parents engaged in the
+              learning process. Our digital support system includes live online
+              classes, recorded lessons, and WhatsApp updates for classwork and
+              board work. Parents are added to WhatsApp groups to stay informed
+              about their child’s academic activities, attendance, and test
+              performance. This ensures transparency and effective
+              communication, making it easier for parents to monitor progress.
               <br />
-              At Yagpal, we don&apos;t just teach; we mentor, guide, and prepare
-              students for academic excellence and future challenges. Our
-              well-structured notes, interactive learning methods, and
-              experienced teachers ensure that every student receives the best
-              education possible. Choose Yagpal for a disciplined,
-              result-oriented, and nurturing learning experience that guarantees
-              success.
+              For students preparing for competitive exams, we offer expert
+              coaching for NEET and JEE (Mains & Advanced). Our specialized
+              crash courses help students strengthen their concepts in a focused
+              manner. Additionally, we provide hostel facilities for boys and
+              girls, regular online assessments, and structured guidance to
+              ensure a well-rounded learning experience. With a disciplined
+              approach and personalized attention, Yagpal continues to shape the
+              future of students through excellence in education.
             </p>
           </div>
           <div className="grid xl:grid-cols-3 grid-cols-2 xl:gap-12 md:gap-8 gap-4">

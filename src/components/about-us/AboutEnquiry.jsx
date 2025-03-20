@@ -11,7 +11,7 @@ export default function AboutEnquiry() {
   return (
     <div className="flex items-center justify-center bg-[url('/custom-bg/form-bg.png')] bg-no-repeat bg-cover bg-center">
       <div className="bg-site-primary/80 flex flex-col lg:flex-row w-full h-full xl:p-16 lg:p-8 p-4 xl:gap-10 lg:gap-8 gap-5">
-        <div className="flex flex-1/2">
+        <div className="flex lg:flex-1/2 justify-center items-center">
           <EnquiryForm />
         </div>
         <div className="flex flex-col gap-5 lg:flex-1/2">
@@ -20,13 +20,21 @@ export default function AboutEnquiry() {
             <span className="text-site-secondary">Creativity and Talent</span>
             &nbsp; With Us
           </h1>
-          <p className="text-white">
-            There are many variations of passages available but the majority
-            have suffered alteration in some form by injected humour randomised
-            words which don't look even slightly believable. If you are going to
-            use passage you need sure there anything embarrassing first true
-            generator on the Internet.
-          </p>
+          <div className="flex flex-col gap-3">
+            <p className="text-white xl:text-xl md:text-lg text-base">
+              Periodic tests are conducted to assess student progress.
+            </p>
+            <p className="text-white xl:text-xl md:text-lg text-base">
+              Live online classes are provided for flexible learning.
+            </p>
+            <p className="text-white xl:text-xl md:text-lg text-base">
+              Cameras must be kept on during online classes.
+            </p>
+            <p className="text-white xl:text-xl md:text-lg text-base">
+              The use of phones and electronic devices is strictly prohibited in
+              the classroom and on the premises.
+            </p>
+          </div>
           <div className="flex flex-col gap-8 mt-3">
             {progressData.map((item, index) => (
               <ProgressWithLabel

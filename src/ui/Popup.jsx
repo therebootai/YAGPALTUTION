@@ -15,7 +15,7 @@ export default function Popup({ children, isOpen, onClose }) {
   return (
     <main
       className={`fixed inset-0 flex items-center justify-center bg-black/50 z-[1000] 
-        transition-opacity duration-300 ${
+        transition-opacity duration-300 backdrop-blur-xs ${
           isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
     >
