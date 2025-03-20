@@ -6,6 +6,7 @@ import ClassesSection from "@/components/our-classes/ClassesSection";
 import AboutEnquiry from "@/components/about-us/AboutEnquiry";
 import Testimaonial from "@/components/home/Testimaonial";
 import WhyChoose from "@/components/home/WhyChoose";
+import HomeGallery from "@/components/home/HomeGallery";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <AboutGraphics />
       <WhyChoose />
       <ClassesSection />
+      <HomeGallery />
       <AcheiveMentSection />
       <Testimaonial />
       <AboutEnquiry />
