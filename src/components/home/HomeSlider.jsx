@@ -8,13 +8,7 @@ export default function HomeSlider() {
       imageSrc: "/sliders/slider1.jpg",
     },
     {
-      imageSrc: "/sliders/slider2.jpg",
-    },
-    {
       imageSrc: "/sliders/slider3.jpg",
-    },
-    {
-      imageSrc: "/sliders/slider4.jpg",
     },
     {
       imageSrc: "/sliders/slider5.jpg",

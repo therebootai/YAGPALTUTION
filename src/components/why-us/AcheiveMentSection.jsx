@@ -71,6 +71,7 @@ export default function AcheiveMentSection() {
             autoplay: autoplay,
             disableOnInteraction: false,
           }}
+          spaceBetween={30}
         >
           {achievments.map((achievement, index) => (
             <SwiperSlide key={index}>

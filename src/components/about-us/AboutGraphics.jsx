@@ -13,9 +13,9 @@ export default function AboutGraphics() {
         if (entries[0].isIntersecting) {
           const interval = setInterval(() => {
             setProgress((prev) => {
-              if (prev >= 25) {
+              if (prev >= 28) {
                 clearInterval(interval);
-                return 25;
+                return 28;
               }
               return prev + 1;
             });
@@ -61,22 +61,22 @@ export default function AboutGraphics() {
             </div>
           </div>
           <div className="w-[50%] flex flex-col gap-4 xl:gap-6 h-full">
-            <div className="w-full ">
+            <div className="w-full">
               <Image
-                src={"/about/about-2.png"}
+                src={"/gallery/gallery34.jpeg"}
                 alt="about"
                 width={286}
                 height={286}
-                className="object-cover size-full rounded-full "
+                className="object-cover size-72 rounded-full "
               />
             </div>
-            <div className=" h-[75%] w-full ">
+            <div className="h-[75%] w-full ">
               <Image
                 src={"/about/about-3.png"}
                 alt="about"
                 width={1040}
                 height={1444}
-                className="object-cover h-full w-full  rounded-b-[2rem] rounded-tr-[2rem] "
+                className="object-cover h-full w-full rounded-b-[2rem] rounded-tr-[2rem] "
               />
             </div>
           </div>

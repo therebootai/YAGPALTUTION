@@ -46,12 +46,12 @@ export default function AboutContent() {
         </h1>
         <p className="xl:text-base text-sm text-site-text ">
           <span className="text-[#222]">Yagpal</span> is one of the oldest and
-          most trusted tuition centers in Pradhan Nagar, Siliguri, with over 25+
+          most trusted tuition centers in Pradhan Nagar, Siliguri, with over 28+
           years of excellence in education. We provide comprehensive tuition for
           students from Class I to XII across all major boards, including CBSE,
           ICSE, ISC, and WBCHSE. Our expert faculty ensures structured learning
           with well-prepared notes, regular assessments, and disciplined
-          teaching methods. We offer specialized coaching for NEET and JEE
+          teaching methods. We offer specialized coaching for NEET, CUET and JEE
           &#40;Main &amp; Advanced&#41;, along with crash courses and online
           classes for flexible learning. Students receive individual attention,
           and performance tracking is done through periodic tests. Additionally,

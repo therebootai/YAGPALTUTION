@@ -92,6 +92,17 @@ I wish I would have attended offline classes to witness you teaching physically 
 Nevertheless - I had heard of a Chemistry teacher in our school Mr. K N Pradhan while I was doing my research on teachers of St. Augustine’s School Kalimpong- who used to be just like you in teaching. I believe I was able to witness the greatness of teaching chemistry.
 `,
   },
+  {
+    name: "Kyle Hang Subba ICSE X",
+    description: `I wanted to take a moment to sincerely thank you for all the support, guidance, and patience you have shown me throughout my chemistry journey. I still remember how I started, struggling to understand even the simplest concepts. But with your dedication and encouragement, everything began to make sense. <br/>
+
+Your clear explanations, engaging lessons, and constant motivation have truly transformed my understanding of chemistry. I never imagined I would confidently say that i enjoy chemistry as one of my favourite subjects.Today, my paper went quite well and Im expecting around the 70/80 mark… <br/>
+
+This achievement of mine wouldnt have been possible with your willigness to go the extra mile to ensure we understood the concept properly. <br/>
+
+Thank you once again for making such a positive impact on my learning journey. I will forever be grateful to you and your efforts. <br/>
+`,
+  },
 ];
 
 export default allTestimonials;

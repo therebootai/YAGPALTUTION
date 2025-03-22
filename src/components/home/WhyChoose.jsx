@@ -16,6 +16,11 @@ export default function WhyChoose() {
     "Philosophy",
     "History",
     "Geography",
+    "Social Science",
+    "Nepali",
+    "Hindi",
+    "Commerce",
+    "Computer",
   ];
   return (
     <div className="xl:p-16 lg:p-8 p-4 flex flex-col md:flex-row gap-4 xl:gap-6">
@@ -33,7 +38,7 @@ export default function WhyChoose() {
               Confidence, Creativity, and Success!
             </h1>
             <p className="xl:text-base text-sm text-site-text ">
-              With over 25 years of excellence,{" "}
+              With over 28 years of excellence,{" "}
               <span className="text-[#222]">Yagpal</span> has established itself
               as a trusted tuition center in Pradhan Nagar, Siliguri. We are
               committed to delivering high-quality education for students from
@@ -48,18 +53,18 @@ export default function WhyChoose() {
               learning process. Our digital support system includes live online
               classes, recorded lessons, and WhatsApp updates for classwork and
               board work. Parents are added to WhatsApp groups to stay informed
-              about their child’s academic activities, attendance, and test
+              about their child&apos;s academic activities, attendance, and test
               performance. This ensures transparency and effective
               communication, making it easier for parents to monitor progress.
               <br />
               For students preparing for competitive exams, we offer expert
-              coaching for NEET and JEE (Mains & Advanced). Our specialized
-              crash courses help students strengthen their concepts in a focused
-              manner. Additionally, we provide hostel facilities for boys and
-              girls, regular online assessments, and structured guidance to
-              ensure a well-rounded learning experience. With a disciplined
-              approach and personalized attention, Yagpal continues to shape the
-              future of students through excellence in education.
+              coaching for NEET, CUET &amp; JEE &#40;Mains & Advanced&#41;. Our
+              specialized crash courses help students strengthen their concepts
+              in a focused manner. Additionally, we provide hostel facilities
+              for boys and girls, regular online assessments, and structured
+              guidance to ensure a well-rounded learning experience. With a
+              disciplined approach and personalized attention, Yagpal continues
+              to shape the future of students through excellence in education.
             </p>
           </div>
           <div className="grid xl:grid-cols-3 grid-cols-2 xl:gap-12 md:gap-8 gap-4">

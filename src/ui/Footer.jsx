@@ -6,7 +6,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
-  const services = [
+  const juniorClasses = [
     {
       label: ` Class One Tuition`,
       href: `/our-classes`,
@@ -16,11 +16,30 @@ export default function Footer() {
       href: `/our-classes`,
     },
     {
+      label: `Class Three Tuition`,
+      href: `/our-classes`,
+    },
+    {
+      label: `Class Four Tuition`,
+      href: `/our-classes`,
+    },
+    {
       label: `Class Five Tuition`,
       href: `/our-classes`,
     },
     {
       label: `Class Six Tuition`,
+      href: `/our-classes`,
+    },
+  ];
+
+  const seniorClasses = [
+    {
+      label: ` Class Seven Tuition`,
+      href: `/our-classes`,
+    },
+    {
+      label: `Class Eight Tuition`,
       href: `/our-classes`,
     },
     {
@@ -67,6 +86,7 @@ export default function Footer() {
       href: `/contact-us`,
     },
   ];
+
   return (
     <footer className="w-full xl:p-16 lg:p-8 p-4 bg-[#F8F8F8] border-t-4 border-site-primary">
       <div className="flex flex-col gap-8">
@@ -83,7 +103,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-site-text text-base">
-              Unlock your potential with Yagpal - 25+ years of excellence in
+              Unlock your potential with Yagpal - 28+ years of excellence in
               education. Join us for a brighter academic future today!
             </p>
             <div className="flex flex-col gap-2 text-base lg:text-sm xl:text-base">
@@ -143,10 +163,23 @@ export default function Footer() {
 
           <div className="flex flex-col gap-4 w-full lg:w-[20%] text-base lg:text-sm xl:text-base">
             <h1 className="font-bold text-site-primary xlg:text-2xl text-lg">
-              Our Classes
+              Our Junior Classes
             </h1>
             <ul className="flex flex-col gap-2 text-site-text xlg:text-lg text-base">
-              {services.map((service) => (
+              {juniorClasses.map((service) => (
+                <li className="hover:text-site-secondary" key={service.label}>
+                  <Link href={service.href}>{service.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="flex flex-col gap-4 w-full lg:w-[20%] text-base lg:text-sm xl:text-base">
+            <h1 className="font-bold text-site-primary xlg:text-2xl text-lg">
+              Our Senior Classes
+            </h1>
+            <ul className="flex flex-col gap-2 text-site-text xlg:text-lg text-base">
+              {seniorClasses.map((service) => (
                 <li className="hover:text-site-secondary" key={service.label}>
                   <Link href={service.href}>{service.label}</Link>
                 </li>
@@ -168,11 +201,11 @@ export default function Footer() {
           </div>
 
           <div className="flex  flex-col gap-4 w-full lg:w-[20%]">
-            <div className="w-full">
+            <div className="w-full flex-1">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4264.262883703385!2d88.4195448!3d26.725028599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e44109552b03bd%3A0xf04050e5a9e2d158!2sYAGPAL!5e1!3m2!1sen!2sin!4v1740984659152!5m2!1sen!2sin"
                 loading="lazy"
-                className="rounded-lg w-full sm:h-[10rem] lg:h-[12rem] xlg:h-[13rem]"
+                className="rounded-lg w-full h-[10rem] lg:h-full"
               ></iframe>
             </div>
           </div>
@@ -227,10 +260,7 @@ export default function Footer() {
         <div className="font-semibold text-site-text text-center">
           <h1>
             © Copyright{" "}
-            <span className="text-site-primary text-center">
-              {" "}
-              Yagpal Tution
-            </span>{" "}
+            <span className="text-site-primary text-center">Yagpal Tution</span>{" "}
             {/* <br /> */}- 2025 All Rights Reserved
           </h1>
         </div>
