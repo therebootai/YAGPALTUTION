@@ -113,6 +113,8 @@ export default function Footer() {
               <Link
                 href="https://api.whatsapp.com/send?phone=919832014758"
                 className="flex gap-2 text-site-primary"
+                target="_blank"
+                referrerPolicy="no-referrer"
               >
                 <FaWhatsapp size={20} />{" "}
                 <span className="text-site-text">+91 98320 14758</span>
@@ -218,7 +220,7 @@ export default function Footer() {
             </div>
             <div>
               <h1 className="font-bold text-base xlg:text-xl text-site-primary">
-                Call With Us
+                Call Us
               </h1>
               <p className="text-site-text xl:text-base text-sm">
                 <Link href="tel:+919832014758"> +91 98320 14758</Link>

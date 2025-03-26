@@ -3,11 +3,15 @@ export default function DescriptionCard({
   description,
   showBtn = true,
   btnClick,
+  cover,
 }) {
   return (
     <div className="flex items-center justify-center bg-[#fafafa] relative rounded-t-[3.75rem] group min-h-80 hover:shadow-site-primary transition-all duration-500">
       <div className="flex flex-col items-center justify-between gap-5 m-4 lg:m-6 flex-1">
-        <div className="relative bg-[url('/custom-bg/card-cover-bg.png')] bg-no-repeat bg-cover bg-top w-full h-40 lg:h-32 flex items-center justify-center rounded-[3.75rem] rounded-bl-none overflow-hidden">
+        <div
+          className="relative bg-no-repeat bg-cover bg-top w-full h-40 lg:h-32 flex items-center justify-center rounded-[3.75rem] rounded-bl-none overflow-hidden"
+          style={{ backgroundImage: `url('${cover}')` }}
+        >
           <div className="bg-site-secondary/80 group-hover:bg-site-primary/80 size-full flex items-center justify-center transition-colors duration-500">
             <h1 className="text-white xl:text-4xl md:text-2xl text-xl font-bold text-center">
               {heading}

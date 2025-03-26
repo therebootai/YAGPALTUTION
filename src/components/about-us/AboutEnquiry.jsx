@@ -10,8 +10,8 @@ export default function AboutEnquiry() {
   ];
   return (
     <div className="flex items-center justify-center bg-[url('/custom-bg/form-bg.png')] bg-no-repeat bg-cover bg-center">
-      <div className="bg-site-primary/80 flex flex-col lg:flex-row w-full h-full xl:p-16 lg:p-8 p-4 xl:gap-10 lg:gap-8 gap-5 items-center">
-        <div className="flex lg:flex-1/2 justify-center items-center">
+      <div className="bg-site-primary/80 flex flex-col lg:flex-row w-full h-full xl:p-16 lg:p-8 p-4 xl:gap-10 lg:gap-8 gap-5 lg:items-center">
+        <div className="flex lg:flex-1/2 justify-center lg:items-center">
           <EnquiryForm />
         </div>
         <div className="flex flex-col gap-5 lg:flex-1/2">

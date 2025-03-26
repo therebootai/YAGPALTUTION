@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 const contactDetails = [
   {
     icon: <MdPhoneInTalk />,
-    title: `Call With Us`,
+    title: `Call Us`,
     links: [
       {
         text: `+91 98320 14758`,
@@ -19,7 +19,7 @@ const contactDetails = [
   },
   {
     icon: <IoMail />,
-    title: `Email With Us`,
+    title: `Email Us`,
     links: [
       {
         text: `yagpalgoyal@gmail.com`,

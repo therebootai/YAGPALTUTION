@@ -2,6 +2,7 @@ import Footer from "@/ui/Footer";
 import Header from "@/ui/Header";
 import TopHeader from "@/ui/TopHeader";
 import Head from "next/head";
+import OnlyMobile from "./OnlyMobile";
 
 const MainPageTemplate = ({ children, metaData = {} }) => {
   let { title = "Yagpal Tution" } = metaData;
@@ -21,6 +22,7 @@ const MainPageTemplate = ({ children, metaData = {} }) => {
         <div className=" lg:mt-[5rem] md:mt-[5rem] mt-[4rem]"> {children}</div>
         <Footer />
       </div>
+      <OnlyMobile />
     </>
   );
 };

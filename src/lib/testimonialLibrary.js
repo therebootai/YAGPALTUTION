@@ -69,7 +69,7 @@ Take care Sir ..
 `,
   },
   {
-    name: "Vanya george",
+    name: "Mother of Vanya george",
     description: `Anyway I must say .. that I really appreciate your concern and support to all these students and indeed very grateful to you! 
 Thank you , ma’am 🙏🏻`,
   },
@@ -79,7 +79,7 @@ Thank you , ma’am 🙏🏻`,
 `,
   },
   {
-    name: "Shreyansh chettri cbse10",
+    name: "Mother of Shreyansh chettri",
     description: `Mam,  
 M very greatful for everything ... Though he is in the struggling phase .. n m struggling too infact 
 Thank u so much for all u did ... 

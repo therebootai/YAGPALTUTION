@@ -42,6 +42,7 @@ export default function ClassTabs() {
             key={index}
             heading={item.class_name}
             description={item.content}
+            cover={item.bgcover}
             showBtn={true}
             btnClick={() => {
               toggleAppointmentModal();

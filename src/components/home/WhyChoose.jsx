@@ -21,6 +21,7 @@ export default function WhyChoose() {
     "Hindi",
     "Commerce",
     "Computer",
+    "Socialogy",
   ];
   return (
     <div className="xl:p-16 lg:p-8 p-4 flex flex-col md:flex-row gap-4 xl:gap-6">

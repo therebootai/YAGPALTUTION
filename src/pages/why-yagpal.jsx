@@ -8,14 +8,17 @@ export default function WhyYagpal() {
     {
       heading: "Our Mission",
       description: `Yagpal's mission is to provide <b>quality education</b> with a structured and disciplined approach, ensuring <b>academic excellence</b> for students from <b>Class I to Class XII</b> across all major boards. We aim to create a <b>supportive learning environment</b> that fosters <b>knowledge, confidence, and success</b> through expert guidance, personalized attention, and modern teaching methods. Our goal is to prepare students for <b>board exams and competitive tests like NEET & JEE</b>, equipping them with the skills needed to excel in their careers while keeping parents actively involved in their academic journey.`,
+      bgcover: `/gallery/gallery18.jpeg`,
     },
     {
       heading: "Our Vision",
       description: `Yagpal's vision is to be a leading education center that empowers students with knowledge, discipline, and confidence to achieve academic and career success. We strive to create a holistic learning environment that nurtures intellectual growth through innovative teaching methods, personalized mentoring, and structured guidance. Our goal is to make quality education accessible while preparing students for board exams, NEET, JEE, and other competitive exams. By integrating technology, experienced faculty, and strong parent involvement, we aim to shape future leaders who excel in academics and beyond.`,
+      bgcover: `/gallery/gallery21.jpeg`,
     },
     {
       heading: "Objective",
       description: `Yagpal's objective is to provide <b>high-quality education</b> that fosters <b>academic excellence and personal growth</b> for students from <b>Class I to XII</b> across all boards. We aim to create a <b>structured, disciplined, and engaging</b> learning environment where students receive <b>personalized attention, expert guidance, and comprehensive study materials. Our focus is on </b><b>regular assessments, interactive teaching, and digital learning tools</b> to enhance understanding. Additionally, we strive to prepare students for <b>NEET, JEE, and other competitive exams, ensuring they develop the skills and confidence needed for a </b><b>successful future</b>.`,
+      bgcover: `/gallery/gallery43.jpeg`,
     },
   ];
   return (
@@ -27,6 +30,7 @@ export default function WhyYagpal() {
             key={index}
             heading={item.heading}
             description={item.description}
+            cover={item.bgcover}
             showBtn={false}
           />
         ))}
