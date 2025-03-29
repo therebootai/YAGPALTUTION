@@ -146,7 +146,7 @@ export default function Footer() {
                 </Link>
               </div>
               <Link
-                href="https://maps.app.goo.gl/nSxRUfrKtXoZdHso8"
+                href="https://maps.app.goo.gl/FQJdTPYQFkVY68vq6"
                 target="_blank"
                 referrerPolicy="no-referrer"
                 className="flex gap-2 w-full xl:w-[80%]"
@@ -205,7 +205,7 @@ export default function Footer() {
           <div className="flex  flex-col gap-4 w-full lg:w-[20%]">
             <div className="w-full flex-1">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4264.262883703385!2d88.4195448!3d26.725028599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e44109552b03bd%3A0xf04050e5a9e2d158!2sYAGPAL!5e1!3m2!1sen!2sin!4v1740984659152!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4264.259440815286!2d88.41701887543299!3d26.725120476759454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDQzJzMwLjQiTiA4OMKwMjUnMTAuNSJF!5e1!3m2!1sen!2sin!4v1743252716961!5m2!1sen!2sin"
                 loading="lazy"
                 className="rounded-lg w-full h-[10rem] lg:h-full"
               ></iframe>

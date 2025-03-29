@@ -37,7 +37,7 @@ const contactDetails = [
     links: [
       {
         text: `Goyal Tutorial Home, Gayatri Bhawan, Nivedita Road Bylane, Gurung Basti, P.O.Pradhan Nagar, Siliguri, WB, India 734001`,
-        href: `https://maps.app.goo.gl/E7db3LMNB889Uiak9`,
+        href: `https://maps.app.goo.gl/FQJdTPYQFkVY68vq6`,
       },
     ],
   },

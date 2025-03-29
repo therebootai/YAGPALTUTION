@@ -53,7 +53,7 @@ const OnlyMobile = () => {
           <span>Whasts App</span>
         </Link>
         <Link
-          href="https://maps.app.goo.gl/nSxRUfrKtXoZdHso8"
+          href="https://maps.app.goo.gl/FQJdTPYQFkVY68vq6"
           target="_blank"
           referrerPolicy="no-referrer"
           className="flex flex-col gap-2 items-center w-[4rem] justify-center text-sm text-site-text font-semibold absolute -top-7 left-1/2 -translate-x-1/2"

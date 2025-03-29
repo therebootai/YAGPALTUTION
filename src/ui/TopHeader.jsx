@@ -15,7 +15,7 @@ export default function TopHeader() {
         </div>
         <div className="">
           <Link
-            href="https://maps.app.goo.gl/nSxRUfrKtXoZdHso8"
+            href="https://maps.app.goo.gl/FQJdTPYQFkVY68vq6"
             target="_blank"
             referrerPolicy="no-referrer"
             className="flex md:gap-2 gap-1 items-center font-medium md:flex "

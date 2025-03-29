@@ -5,12 +5,16 @@ import Head from "next/head";
 import OnlyMobile from "./OnlyMobile";
 
 const MainPageTemplate = ({ children, metaData = {} }) => {
-  let { title = "Yagpal Tution" } = metaData;
+  let {
+    title = "Welcome to Yagpal Cooching Center Gurung Basti Pradhan Nagar",
+    desciption = "Welcome to Yagpal Cooching Center Gurung Basti Pradhan Nagar",
+  } = metaData;
 
   return (
     <>
       <Head>
         <title>{title}</title>
+        <meta name="description" content={desciption} />
       </Head>
       <div className="flex w-full h-full flex-col overflow-x-hidden">
         <div className=" z-[1000] w-full">
