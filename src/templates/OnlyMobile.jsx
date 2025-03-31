@@ -7,11 +7,6 @@ import { IoLocationSharp } from "react-icons/io5";
 const OnlyMobile = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isAnimated, setIsAnimated] = useState(false);
-  const [modalOpen, setModalOpen] = useState(false);
-
-  const openModal = () => {
-    setModalOpen(true);
-  };
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -50,7 +45,7 @@ const OnlyMobile = () => {
           <span className="text-xl">
             <TbBrandWhatsappFilled className="text-site-primary" />
           </span>
-          <span>Whasts App</span>
+          <span>WhatsApp</span>
         </Link>
         <Link
           href="https://maps.app.goo.gl/FQJdTPYQFkVY68vq6"

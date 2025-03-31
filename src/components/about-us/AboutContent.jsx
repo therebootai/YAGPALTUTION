@@ -1,5 +1,4 @@
 import BulletPoint from "@/svgs/BulletPoint";
-import DoubleColourHeading from "@/ui/DoubleColourHeading";
 
 export default function AboutContent() {
   const details = [
@@ -30,15 +29,21 @@ export default function AboutContent() {
     {
       heading: "Parent included in the Whatsapp Group",
     },
+    {
+      heading: "Crash Courses are Available",
+    },
+    {
+      heading:
+        "Single Classes (1 is to 1) classes available for those willing to avail",
+    },
+    {
+      heading:
+        "Classes available for those who have been asked to appear retest",
+    },
   ];
   return (
     <div className="flex flex-col gap-4 xlg:gap-6 xl:gap-8">
       <div className="flex flex-col gap-2 xlg:gap-3">
-        <DoubleColourHeading
-          primarytext={"About"}
-          secondarytext={"Yagpal"}
-          className={`xl:text-xl text-lg`}
-        />
         <h1 className=" xlg:text-3xl lg:text-2xl md:text-xl text-2xl font-bold text-site-primary">
           Learn, Grow, and Succeed -&nbsp;
           <span className=" text-site-secondary">Be Inspired</span> by Our
